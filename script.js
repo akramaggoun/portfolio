@@ -319,9 +319,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // EmailJS
-    const EMAILJS_SERVICE_ID = 'service_kukdq6w';
-    const EMAILJS_TEMPLATE_ID = 'template_lavlj3f';
-    const EMAILJS_PUBLIC_KEY = 'YQ62fc-QSPhK1mY3j';
+    const EMAILJS_SERVICE_ID = 'service_umzq15c';
+    const EMAILJS_TEMPLATE_ID = 'template_m8t2b4h';
+    const EMAILJS_PUBLIC_KEY = 'v9fR7jiM8nDofksHs';
 
     if (window.emailjs && typeof emailjs.init === 'function') {
         try { emailjs.init(EMAILJS_PUBLIC_KEY); } catch (err) { console.warn('EmailJS init failed', err); }
